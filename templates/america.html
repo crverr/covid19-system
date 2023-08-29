@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COVID19-SYSTEM</title>
+    <link rel="stylesheet" href="../static/css/common.css">
+    <script src="../static/js/jquery.js"></script>
+{#    <script src="https://cdn.bootcdn.net/ajax/libs/echarts/3.8.5/echarts.min.js"></script>#}
+    <script src="../static/js/echarts.min.js"></script>
+{#    <script src="../static/json/USA.json"></script>#}
+    <script>
+        $(window).load(function(){
+             $(".loading").fadeOut()
+            })
+    </script>
+</head>
+<body>
+<div class="canvas" style="opacity: .2">
+	<iframe frameborder="0" src="../static/js/index.html" style="width: 100%; height: 100%; position: fixed;"></iframe>
+</div>
+<div class="loading">
+    <div class="loadbox">
+        <img src="../static/images/loading.gif">页面加载中……
+    </div>
+</div>
+<div class="head">
+    <ul>
+       <li class="parentnav">
+            <a href="/system">全国疫情追踪</a>
+             <ul class="childnav" >
+                <li><a href="/protrend">全国省市趋势</a></li>
+            </ul>
+        </li>
+        <li class="parentnav">
+            <a href="/global" class="selected">全球疫情追踪</a>
+            <ul class="childnav" >
+                <li><a href="/worldtrend">全部国家趋势</a></li>
+                <li><a href="/america">美国总体趋势</a></li>
+                <li><a href="/americatrend">美国各洲趋势</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="/worldvaccine">全球疫苗追踪</a>
+        </li>
+        <li>
+            <a href="/history">全球疫情回放</a>
+        </li>
+    </ul>
+
+    <div class="latestTime"><span id="showTime">xxx</span></div>
+</div>
+<div class="mainbox">
+    <ul class="clearfix">
+        <li>
+            <div class="boxall">
+                <div class="alltitle">美国累计趋势图</div>
+                <div class="allnav" id="echarts1"></div>
+            </div>
+            <div class="boxall">
+                <div class="alltitle">美国新增趋势图</div>
+                <div class="allnav" id="echarts2"></div>
+            </div>
+            <div class="boxall">
+                <div class="alltitle">美国总共累计检测</div>
+                <div class="allnav" id="echarts3"></div>
+            </div>
+            <div class="boxall">
+                <div class="alltitle">美国当前住院</div>
+                <div class="allnav" id="echarts4"></div>
+            </div>
+        </li>
+        <li class="clearfix">
+            <div class="bar">
+                <div class="barbox data1">
+                    <ul class="clearfix c1">
+                        <li class="pull_left">
+                            <span class="cmp">较上日<em>  </em></span>
+                            <span class="s1"></span>
+                        </li>
+                        <li class="pull_left">
+                            <span class="cmp">较上日<em>  </em></span>
+                            <span class="s1"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="barinfo">
+                    <ul class="clearfix c1">
+                        <li class="pull_left">现有确诊</li>
+                        <li class="pull_left">累计确诊</li>
+                    </ul>
+                </div>
+                <div class="barbox data2">
+                    <ul class="clearfix c1">
+                        <li class="pull_left">
+                            <span class="cmp">较上日<em>  </em></span>
+                            <span class="s1"></span>
+                        </li>
+                        <li class="pull_left">
+                            <span class="cmp">较上日<em>  </em></span>
+                            <span class="s1"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="barinfo">
+                    <ul class="clearfix c1">
+                        <li class="pull_left">累计治愈</li>
+                        <li class="pull_left">累计死亡</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="map">
+                <div class="map1"><img src="../static/images/lbx.png"></div>
+                <div class="map2"><img src="../static/images/jt.png"></div>
+                <div class="map3"><img src="../static/images/map.png"></div>
+                <div class="map4" id="map_1"></div>
+            </div>
+        </li>
+        <li>
+            <div class="boxall">
+                <div class="alltitle">美国累计检测</div>
+                <div class="allnav" id="echarts5"></div>
+            </div>
+            <div class="boxall">
+                <div class="alltitle">美国新增检测</div>
+                <div class="allnav" id="echarts6"></div>
+            </div>
+            <div class="boxall">
+                <div c"echarts8"></div>
+            </div>lass="alltitle">美国当前ICU</div>
+                <div class="allnav" id="echarts7"></div>
+            </div>
+            <div class="boxall">
+                <div class="alltitle">美国当前呼吸机</div>
+                <div class="allnav" id=
+        </li>
+    </ul>
+</div>
+<script src="../static/js/share.js"></script>
+
+<script src="../static/js/america_charts.js"></script>
+<script src="../static/js/controllers/america_controller.js"></script>
+<script src="../static/js/mapamerica.js"></script>
+<script>
+
+</script>
+</body>
+</html>

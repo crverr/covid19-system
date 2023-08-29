@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COVID19-SYSTEM</title>
+    <link rel="stylesheet" href="../static/css/common.css">
+    <script type="text/javascript" src="../static/js/echarts.min.js"></script>
+    <script type="text/javascript" src="../static/js/china.js"></script>
+    <script type="text/javascript" src="../static/js/echarts-gl.min.js"></script>
+    <script type="text/javascript" src="../static/js/world.js"></script>
+    <script type="text/javascript" src="../static/js/jquery.js"></script>
+    <script>
+        $(window).load(function(){
+             $(".loading").fadeOut()
+            })
+    </script>
+</head>
+<body>
+<div class="canvas" style="opacity: .2">
+	<iframe frameborder="0" src="../static/js/index.html" style="width: 100%; height: 100%; position: fixed;"></iframe>
+</div>
+<div class="loading">
+    <div class="loadbox">
+        <img src="../static/images/loading.gif">页面加载中……
+    </div>
+</div>
+<div class="head">
+    <ul>
+        <li class="parentnav">
+            <a href="/system">全国疫情追踪</a>
+             <ul class="childnav" >
+                <li><a href="/protrend">全国省市趋势</a></li>
+            </ul>
+        </li>
+        <li class="parentnav">
+            <a href="/global">全球疫情追踪</a>
+            <ul class="childnav" >
+                <li><a href="/worldtrend">全部国家趋势</a></li>
+                <li><a href="/america">美国总体趋势</a></li>
+                <li><a href="/americatrend">美国各洲趋势</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="/worldvaccine">全球疫苗追踪</a>
+        </li>
+        <li>
+            <a href="/history" class="selected">全球疫情回放</a>
+        </li>
+
+    </ul>
+
+    <div class="latestTime"><span id="showTime">xxx</span></div>
+</div>
+<div class="mainbox">
+    <ul class="clearfix">
+        <li style="width: 50%;">
+            <div class="boxall history-box" id="chinaMap" ></div>
+        </li>
+        <li style="width: 50%;">
+            <div class="boxall history-box" id="worldMap"></div>
+        </li>
+    </ul>
+</div>
+<script src="../static/js/share.js"></script>
+<script src="../static/js/controllers/history_controller.js"></script>
+</body>
+</html>

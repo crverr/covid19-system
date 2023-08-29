@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COVID19-SYSTEM</title>
+    <link rel="stylesheet" href="../static/css/common.css">
+    <script src="../static/js/jquery.js"></script>
+    <script src="../static/js/echarts.min.js"></script>
+    <script src="../static/js/world.js"></script>
+    <script src="../static/js/echarts-wordcloud.min.js"></script>
+    <script>
+        $(window).load(function(){
+             $(".loading").fadeOut()
+            })
+    </script>
+</head>
+<body>
+<div class="canvas" style="opacity: .2">
+	<iframe frameborder="0" src="../static/js/index.html" style="width: 100%; height: 100%; position: fixed;"></iframe>
+</div>
+<div class="loading">
+    <div class="loadbox">
+        <img src="../static/images/loading.gif">页面加载中……
+    </div>
+</div>
+<div class="head">
+    <ul>
+        <li class="parentnav">
+            <a href="/system">全国疫情追踪</a>
+             <ul class="childnav" >
+                <li><a href="/protrend">全国省市趋势</a></li>
+            </ul>
+        </li>
+        <li class="parentnav">
+            <a href="/global">全球疫情追踪</a>
+            <ul class="childnav" >
+                <li><a href="/worldtrend">全部国家趋势</a></li>
+                <li><a href="/america">美国总体趋势</a></li>
+                <li><a href="/americatrend">美国各洲趋势</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="/worldvaccine" class="selected">全球疫苗追踪</a>
+        </li>
+        <li>
+            <a href="/history">全球疫情回放</a>
+        </li>
+    </ul>
+
+    <div class="latestTime"><span id="showTime">xxx</span></div>
+</div>
+<div class="mainbox">
+    <ul class="clearfix">
+        <li>
+            <div class="boxall">
+                <div class="alltitle">中国累计接种趋势图</div>
+                <div class="allnav" id="echarts1"></div>
+            </div>
+            <div class="boxall">
+                <div class="alltitle">中国每百人接种趋势图</div>
+                <div class="allnav" id="echarts2"></div>
+            </div>
+             <div class="boxall" style="height: 3.85rem;">
+                <div class="alltitle">今日疫苗舆情词云</div>
+                <div class="allnav" id="echarts3"></div>
+            </div>
+        </li>
+        <li class="clearfix">
+            <div class="bar">
+                <div class="barbox data1">
+                    <ul class="clearfix c1">
+                        <li class="pull_left">
+                            <span class="s1"></span>
+                        </li>
+                        <li class="pull_left">
+                            <span class="s1"></span>
+                        </li>
+                        <li class="pull_left">
+                            <span class="s1"></span>
+                        </li>
+                        <li class="pull_left">
+                            <span class="s1"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="barinfo">
+                    <ul class="clearfix c1">
+                        <li class="pull_left">全球累计接种</li>
+                        <li class="pull_left">全球比上日新增</li>
+                        <li class="pull_left">全球每百人接种</li>
+                        <li class="pull_left">全球每百人接种新增</li>
+                    </ul>
+                </div>
+                <div class="barbox data2">
+                    <ul class="clearfix c1">
+                         <li class="pull_left">
+                            <span class="s1"></span>
+                        </li>
+                        <li class="pull_left">
+                            <span class="s1"></span>
+                        </li>
+                        <li class="pull_left">
+                            <span class="s1"> <!--11.43<em>剂</em>--></span>
+                        </li>
+                        <li class="pull_left">
+                            <span class="s1"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="barinfo">
+                    <ul class="clearfix c1">
+                        <li class="pull_left">中国累计接种</li>
+                        <li class="pull_left">中国较上日新增</li>
+                        <li class="pull_left">中国每百人接种</li>
+                        <li class="pull_left">中国每百人接种新增</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="map">
+                <div class="map1"><img src="../static/images/lbx.png"></div>
+                <div class="map2"><img src="../static/images/jt.png"></div>
+                <div class="map3"><img src="../static/images/map.png"></div>
+                <div class="map4" id="map_1"></div>
+                <div id = "contextMenu">
+                    <img src="../static/images/return.png" alt="返回上一级">
+                    <span class="return">返回上一级</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="boxall scrollbox">
+                <div class="alltitle">完全接种COVID-19疫苗的人口比例</div>
+                <div class="allnav" id="echarts5"></div>
+            </div>
+            <div class="boxall scrollbox global-box">
+                <div class="alltitle">各地区接种COVID-19疫苗情况</div>
+                <div class="allnav" id="echarts6">
+                     <div class="tt">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>国家(地区)</th>
+                                    <th>完全接种人数</th>
+                                    <th>完全接种比例</th>
+                                    <th>至少接种一次人数</th>
+                                    <th>至少接种一次比例</th>
+                                    <th>更新时间</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="tb scrollbar">
+                        <table class="list-table">
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </li>
+        <li style="width: 100%;">
+            <div class="boxall" style="height: 6.2rem;">
+                <div class="alltitle">各国(地区)疫苗每百人接种趋势</div>
+                <div class="allnav" id="echarts10"></div>
+            </div>
+            <div class="boxall scrollbox">
+                <div class="alltitle">各国(地区)疫苗累计接种趋势</div>
+                <div class="allnav" id="echarts11"></div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<script src="../static/js/share.js"></script>
+<script src="../static/js/vaccine_charts.js"></script>
+<script src="../static/js/mapvaccineworld.js"></script>
+<script src="../static/js/controllers/worldvaccine_controller.js"></script>
+
+</body>
+</html>

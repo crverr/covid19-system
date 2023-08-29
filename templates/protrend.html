@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COVID19-SYSTEM</title>
+    <link rel="stylesheet" href="../static/css/common.css">
+    <script src="../static/js/jquery.js"></script>
+    <script src="../static/js/echarts.min.js"></script>
+    <script>
+    $(window).load(function(){
+         $(".loading").fadeOut()
+    })
+    </script>
+</head>
+<body style="background-size: inherit;">
+<div class="canvas" style="opacity: .2">
+	<iframe frameborder="0" src="../static/js/index.html" style="width: 100%; height: 100%; position: fixed;"></iframe>
+</div>
+<div class="loading">
+    <div class="loadbox">
+        <img src="../static/images/loading.gif">页面加载中……
+    </div>
+</div>
+<div class="head">
+    <ul>
+       <li class="parentnav">
+            <a href="/system" class="selected">全国疫情追踪</a>
+             <ul class="childnav" >
+                <li><a href="/protrend">全国省市趋势</a></li>
+            </ul>
+        </li>
+        <li class="parentnav">
+            <a href="/global">全球疫情追踪</a>
+            <ul class="childnav" >
+                <li><a href="/worldtrend">全部国家趋势</a></li>
+                <li><a href="/america">美国总体趋势</a></li>
+                <li><a href="/americatrend">美国各洲趋势</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="/worldvaccine">全球疫苗追踪</a>
+        </li>
+        <li>
+            <a href="/history">全球疫情回放</a>
+        </li>
+    </ul>
+
+    <div class="searchBox">
+        <form>
+            <input type="text" name="searchName" class="searchIn" placeholder="省份或城市">
+            <input type="button" name="china" class="searchBut" value="搜索" />
+        </form>
+    </div>
+</div>
+<div class="mainbox">
+    <div class="mainloading">
+        <div class="loadbox">
+            <img src="../static/images/loading.gif">数据加载中……
+        </div>
+    </div>
+    <ul class="trend-box">
+    </ul>
+</div>
+<script src="../static/js/share.js"></script>
+<script src="../static/js/controllers/trend_controller.js"></script>
+<script>
+$(function () {
+    function loadData(){
+        loadLi('china')
+    }
+    loadData()
+})
+</script>
+</body>
+</html>

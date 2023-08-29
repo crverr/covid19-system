@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COVID19-SYSTEM</title>
+    <link rel="stylesheet" href="../static/css/common.css">
+    <script src="../static/js/jquery.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/echarts/3.8.5/echarts.min.js"></script>
+{#    <script src="../static/js/echarts.min.js"></script>#}
+    <script src="../static/js/china.js"></script>
+    <script src="../static/js/echarts-wordcloud3.min.js"></script>
+    <script>
+        $(window).load(function(){
+             $(".loading").fadeOut()
+            })
+    </script>
+</head>
+<body>
+<div class="canvas" style="opacity: .2">
+	<iframe frameborder="0" src="../static/js/index.html" style="width: 100%; height: 100%; position: fixed;"></iframe>
+</div>
+<div class="loading">
+    <div class="loadbox">
+        <img src="../static/images/loading.gif">页面加载中……
+    </div>
+</div>
+<div class="head">
+    <ul>
+        <li class="parentnav">
+            <a href="/system" class="selected">全国疫情追踪</a>
+            <ul class="childnav" >
+                <li><a href="/protrend">全国省市趋势</a></li>
+            </ul>
+        </li>
+        <li class="parentnav">
+            <a href="/global">全球疫情追踪</a>
+            <ul class="childnav" >
+                <li><a href="/worldtrend">全部国家趋势</a></li>
+                <li><a href="/america">美国总体趋势</a></li>
+                <li><a href="/americatrend">美国各洲趋势</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="/worldvaccine">全球疫苗追踪</a>
+        </li>
+        <li>
+            <a href="/history">全球疫情回放</a>
+        </li>
+    </ul>
+
+    <div class="latestTime"><span id="showTime">xxx</span></div>
+</div>
+<div class="mainbox">
+    <ul class="clearfix">
+        <li>
+            <div class="boxall">
+                <div class="alltitle">全国累计趋势图</div>
+                <div class="allnav" id="echarts1"></div>
+            </div>
+            <div class="boxall">
+                <div class="alltitle">全国新增趋势图</div>
+                <div class="allnav" id="echarts2"></div>
+            </div>
+            <div class="boxall">
+                <div class="alltitle">全国累计死亡/治愈率趋势图</div>
+                <div class="allnav" id="echarts3"></div>
+            </div>
+            <div class="boxall scrollbox" id="echarts4">
+                <div class="alltitle">近期31省区市本土病例</div>
+                <div class="allnav" id="echarts4">
+                    <div class="tt">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>城市(区)</th>
+                                    <th>省市区</th>
+                                    <th>新增</th>
+                                    <th>现有确诊</th>
+                                    <th>区域风险</th>
+                                    <th>更新时间</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="tb scrollbar">
+                        <table class="list-table">
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+            </div>
+        </li>
+        <li class="clearfix">
+            <div class="bar">
+                <div class="barbox data1">
+                    <ul class="clearfix c1">
+                        <li class="pull_left">
+                            <span class="cmp">较上日<em>  </em></span>
+                            <span class="s1"></span>
+                        </li>
+                        <li class="pull_left">
+                            <span class="cmp">较上日<em>  </em></span>
+                            <span class="s1"></span>
+                        </li>
+                        <li class="pull_left">
+                            <span class="cmp">较上日<em>  </em></span>
+                            <span class="s1"></span>
+                        </li>
+                        <li class="pull_left">
+                            <span class="cmp">较上日<em>  </em></span>
+                            <span class="s1"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="barinfo">
+                    <ul class="clearfix c1">
+                        <li class="pull_left">累计确诊</li>
+                        <li class="pull_left">现有疑似</li>
+                        <li class="pull_left">累计治愈</li>
+                        <li class="pull_left">累计死亡</li>
+                    </ul>
+                </div>
+                <div class="barbox data2">
+                    <ul class="clearfix c1">
+                        <li class="pull_left">
+                            <span class="cmp">较上日<em>  </em></span>
+                            <span class="s1"></span>
+                        </li>
+                        <li class="pull_left">
+                            <span class="cmp">较上日<em>  </em></span>
+                            <span class="s1"></span>
+                        </li>
+                        <li class="pull_left">
+                            <span class="cmp">较上日<em>  </em></span>
+                            <span class="s1"></span>
+                        </li>
+                        <li class="pull_left">
+                            <span class="cmp">较上日<em>  </em></span>
+                            <span class="s1"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="barinfo">
+                    <ul class="clearfix c1">
+                        <li class="pull_left">本土现有确诊</li>
+                        <li class="pull_left">无症状感染者</li>
+                        <li class="pull_left">境外输入</li>
+                        <li class="pull_left">现有确诊</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="map">
+                <div class="map1"><img src="../static/images/lbx.png"></div>
+                <div class="map2"><img src="../static/images/jt.png"></div>
+                <div class="map3"><img src="../static/images/map.png"></div>
+                <div class="map4" id="map_1"></div>
+                <div id = "contextMenu">
+                    <img src="../static/images/return.png" alt="返回上一级">
+                    <span class="return">返回上一级</span>
+                </div>
+            </div>
+            <div class="boxall scrollbox">
+                <div class="alltitle">疫情热搜词云</div>
+                <div class="allnav" id="center"></div>
+            </div>
+        </li>
+        <li>
+            <div class="boxall">
+                <div class="alltitle">病患总数排名 (中国-下属一级行政区)</div>
+                <div class="allnav" id="echarts5"></div>
+            </div>
+            <div class="boxall">
+                <div class="alltitle">新增感染人数</div>
+                <div class="allnav" id="echarts6"></div>
+            </div>
+            <div class="boxall">
+                <div class="alltitle">全国重症病例</div>
+                <div class="allnav" id="echarts7"></div>
+            </div>
+            <div class="boxall scrollbox">
+                <div class="alltitle">实时播报</div>
+                <div class="allnav" id="echarts8">
+                    <div class="timeline-small">
+                        <div class="timeline-small-body">
+                            <ul></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+<script src="../static/js/share.js"></script>
+<script src="../static/js/mapchina.js"></script>
+<script src="../static/js/city-map/china-main-city-map.js"></script>
+<script src="../static/js/area_charts.js"></script>
+<script src="../static/js/controllers/controller.js"></script>
+<script>
+    $(function () {
+        $("#contextMenu").mouseenter(function () {
+            $(".return").css({display: 'block'})
+        }).mouseleave(function () {
+            $(".return").css({display: 'none'})
+        })
+        var TaskType = '';
+        $(".list-table tr:gt(0)").click(function () {
+            TaskType = $(this).find("td").eq(0).html();
+            console.log(TaskType)
+        })
+    })
+
+</script>
+</body>
+</html>

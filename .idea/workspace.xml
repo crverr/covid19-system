@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="debda06e-5b43-48f4-84af-c49be1d422a6" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="covid19-system" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/america.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/history.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1296">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/worldtrend.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1134">
+              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-vaccinations-news-data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/controllers/global_controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="88" column="77" selection-start-line="88" selection-start-column="72" selection-end-line="88" selection-end-column="77" />
+              <folding>
+                <element signature="e#52#550#0" />
+                <element signature="e#579#1027#0" />
+                <element signature="e#1471#1973#0" />
+                <element signature="e#2002#2394#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-yiqing-data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20628">
+              <caret line="768" column="80" selection-start-line="768" selection-start-column="80" selection-end-line="768" selection-end-column="80" />
+              <folding>
+                <element signature="e#24#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/world_charts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2727">
+              <caret line="101" column="30" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/global.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3834">
+              <caret line="142" column="12" selection-start-line="139" selection-start-column="32" selection-end-line="142" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3186">
+              <caret line="121" selection-start-line="121" selection-end-line="121" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="530" column="14" selection-start-line="530" selection-start-column="14" selection-end-line="530" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>color</find>
+      <find>yq</find>
+      <find>get_vl3_data</find>
+      <find>hot</find>
+      <find>province_history</find>
+      <find>trend</find>
+      <find>worldm</find>
+      <find>worldM</find>
+      <find>append</find>
+      <find>新增检测</find>
+      <find>累计检测阳</find>
+      <find>新增确诊</find>
+      <find>wordcl</find>
+      <find>get</find>
+      <find>GET</find>
+      <find>get_gl2_data</find>
+      <find>methods</find>
+      <find>news</find>
+      <find>新闻</find>
+      <find>error</find>
+      <find>hotnews_data</find>
+      <find>hotnews_dat</find>
+      <find>../../images/triangle.png</find>
+      <find>海外疫情</find>
+      <find>image</find>
+      <find>get_localrisk_data</find>
+      <find>local</find>
+      <find>update_global_history_data</find>
+      <find>update_hotsearch</find>
+      <find>get_hotnews_data</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>datetime</replace>
+      <replace>date</replace>
+      <replace>津巴布韦</replace>
+      <replace>echarts</replace>
+      <replace>echarts3</replace>
+      <replace>Maine</replace>
+      <replace>&quot;Wyoming&quot;</replace>
+      <replace>特拉华州</replace>
+      <replace>加利福尼亚</replace>
+      <replace>&quot;Arkansas&quot;</replace>
+      <replace>Arkansas</replace>
+      <replace>_add</replace>
+      <replace>setInterval</replace>
+      <replace>setTimeout</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/static/js/mapvaccineworld.js" />
+        <option value="$PROJECT_DIR$/static/js/worldvaccine_controller.js" />
+        <option value="$PROJECT_DIR$/static/js/share.js" />
+        <option value="$PROJECT_DIR$/static/js/echarts-wordcloud.js" />
+        <option value="$PROJECT_DIR$/static/json/world-series.json" />
+        <option value="$PROJECT_DIR$/static/js/echarts3.min.js" />
+        <option value="$PROJECT_DIR$/static/js/history_charts.js" />
+        <option value="$PROJECT_DIR$/static/js/trend_controller.js" />
+        <option value="D:/jupyter notebook/notebook/one.json" />
+        <option value="$PROJECT_DIR$/static/json/one.json" />
+        <option value="$PROJECT_DIR$/static/json/america-provinces-history.json" />
+        <option value="$PROJECT_DIR$/static/js/global_controller.js" />
+        <option value="$PROJECT_DIR$/static/js/america_controller.js" />
+        <option value="$PROJECT_DIR$/static/js/protrend_controller.js" />
+        <option value="$PROJECT_DIR$/static/js/worldtrend_controller.js" />
+        <option value="$PROJECT_DIR$/static/js/history_controller.js" />
+        <option value="$PROJECT_DIR$/spider-vaccinations-data.py" />
+        <option value="$PROJECT_DIR$/static/csv/vaccinations-news-data.csv" />
+        <option value="$PROJECT_DIR$/static/js/controller.js" />
+        <option value="$PROJECT_DIR$/spider-vaccinations-news-data.py" />
+        <option value="$PROJECT_DIR$/static/csv/yq-words-data.csv" />
+        <option value="$PROJECT_DIR$/static/js/area_charts.js" />
+        <option value="$PROJECT_DIR$/templates/history.html" />
+        <option value="$PROJECT_DIR$/templates/global.html" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/static/js/controllers/global_controller.js" />
+        <option value="$PROJECT_DIR$/static/js/controllers/america_controller.js" />
+        <option value="$PROJECT_DIR$/static/csv/weibo-words-data.csv" />
+        <option value="$PROJECT_DIR$/static/csv/weiboComments.csv" />
+        <option value="$PROJECT_DIR$/templates/sentiment.html" />
+        <option value="$PROJECT_DIR$/spider-weibo-comments-data.py" />
+        <option value="$PROJECT_DIR$/static/js/sentiment_charts.js" />
+        <option value="$PROJECT_DIR$/static/js/controllers/sentiment_controller.js" />
+        <option value="$PROJECT_DIR$/static/js/mapchina.js" />
+        <option value="$PROJECT_DIR$/static/css/common.css" />
+        <option value="$PROJECT_DIR$/templates/protrend.html" />
+        <option value="$PROJECT_DIR$/templates/worldtrend.html" />
+        <option value="$PROJECT_DIR$/static/js/mapworld.js" />
+        <option value="$PROJECT_DIR$/static/js/mapamerica.js" />
+        <option value="$PROJECT_DIR$/static/js/america_charts.js" />
+        <option value="$PROJECT_DIR$/templates/americatrend.html" />
+        <option value="$PROJECT_DIR$/templates/worldvaccine.html" />
+        <option value="$PROJECT_DIR$/static/js/vaccine_charts.js" />
+        <option value="$PROJECT_DIR$/static/js/controllers/controller.js" />
+        <option value="$PROJECT_DIR$/static/js/controllers/history_controller.js" />
+        <option value="$PROJECT_DIR$/static/js/controllers/worldvaccine_controller.js" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/util.py" />
+        <option value="$PROJECT_DIR$/spider-yiqing-data.py" />
+        <option value="$PROJECT_DIR$/templates/america.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="30" />
+    <option name="width" value="1750" />
+    <option name="height" value="1105" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="covid19-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="covid19-system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="covid19-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="covid19-system" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="covid19-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="covid19-system" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../科研/实验/实验代码" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\DeskTop\毕设\covid19-system\static\js" />
+      <recent name="F:\DeskTop\毕设\covid19-system\controllers" />
+      <recent name="F:\DeskTop\毕设\covid19-system\static\json" />
+      <recent name="F:\DeskTop\毕设\covid19-system\static" />
+      <recent name="F:\DeskTop\毕设\covid19-system\static\js\json" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\DeskTop\毕设\covid19-system\static\js" />
+      <recent name="F:\DeskTop\毕设\covid19-system\static\js\controllers" />
+      <recent name="F:\DeskTop\毕设\covid19-system\templates" />
+      <recent name="F:\DeskTop\毕设\covid19-system\static\csv" />
+      <recent name="F:\DeskTop\毕设\covid19-system\static\js\json" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Flask server.Flask (app.py)">
+    <configuration name="spider-vaccinations-news-data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="covid19-system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider-vaccinations-news-data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spider-weibo-comments-data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="covid19-system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider-weibo-comments-data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spider-yiqing-data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="covid19-system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider-yiqing-data.py" />
+      <option name="PARAMETERS" value="up_det" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="util" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="covid19-system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="covid19-system" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="covid19-system" type="Python.FlaskServer">
+      <option name="flaskDebug" value="true" />
+      <module name="covid19-system" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\crj\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.spider-vaccinations-news-data" />
+      <item itemvalue="Python.spider-weibo-comments-data" />
+      <item itemvalue="Python.spider-yiqing-data" />
+      <item itemvalue="Python.util" />
+      <item itemvalue="Flask server.Flask (app.py)" />
+      <item itemvalue="Flask server.covid19-system" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask server.Flask (app.py)" />
+        <item itemvalue="Python.spider-yiqing-data" />
+        <item itemvalue="Python.util" />
+        <item itemvalue="Python.spider-weibo-comments-data" />
+        <item itemvalue="Python.spider-vaccinations-news-data" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="debda06e-5b43-48f4-84af-c49be1d422a6" name="Default Changelist" comment="" />
+      <created>1612595874279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612595874279</updated>
+      <workItem from="1612595875414" duration="47368000" />
+      <workItem from="1614308812684" duration="627000" />
+      <workItem from="1614413620386" duration="2623000" />
+      <workItem from="1615365601736" duration="750000" />
+      <workItem from="1615464724800" duration="1000000" />
+      <workItem from="1616591371122" duration="762000" />
+      <workItem from="1616646106454" duration="42443000" />
+      <workItem from="1616913373959" duration="377000" />
+      <workItem from="1616913851928" duration="1418000" />
+      <workItem from="1616915597603" duration="13630000" />
+      <workItem from="1617892186229" duration="4029000" />
+      <workItem from="1617967009309" duration="105398000" />
+      <workItem from="1618239587651" duration="40958000" />
+      <workItem from="1618365181665" duration="28655000" />
+      <workItem from="1618492081477" duration="57710000" />
+      <workItem from="1618660478134" duration="57371000" />
+      <workItem from="1618896668848" duration="2132000" />
+      <workItem from="1618923101426" duration="22611000" />
+      <workItem from="1619016812119" duration="2827000" />
+      <workItem from="1619073303217" duration="15261000" />
+      <workItem from="1619177183197" duration="1805000" />
+      <workItem from="1619437563136" duration="4208000" />
+      <workItem from="1619489548834" duration="8006000" />
+      <workItem from="1621322571490" duration="8743000" />
+      <workItem from="1621524056164" duration="646000" />
+      <workItem from="1622039376682" duration="4291000" />
+      <workItem from="1622120566091" duration="2121000" />
+      <workItem from="1622467288067" duration="3465000" />
+      <workItem from="1637678864420" duration="322000" />
+      <workItem from="1643004651997" duration="59000" />
+      <workItem from="1693289488937" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="481620000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5532359" visible="true" weight="0.23525469" />
+      <window_info id="Structure" order="1" sideWeight="0.446319" side_tool="true" weight="0.24" />
+      <window_info id="Favorites" order="2" sideWeight="0.44769874" side_tool="true" weight="0.24" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.47524753" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49799466" weight="0.25742576" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4821151" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.31541726" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50200534" side_tool="true" weight="0.37209302" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" weight="0.32673267" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.584375" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3283582" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32908848" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.618" visible="true" weight="0.17513369" />
+      <window_info id="Structure" order="1" sideWeight="0.382" side_tool="true" weight="0.1735925" />
+      <window_info id="Favorites" order="2" sideWeight="0.38004246" side_tool="true" weight="0.07882432" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34229138" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49799466" visible="true" weight="0.34620506" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2457627" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.31686047" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50200534" side_tool="true" weight="0.37209302" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" weight="0.32673267" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.584375" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295535" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/news-data.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>529</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/covid19_system$spider_vaccinations_news_data.coverage" NAME="spider-vaccinations-news-data Coverage Results" MODIFIED="1618933797574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/covid19_system$crawler.coverage" NAME="crawler Coverage Results" MODIFIED="1612780456498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/DXY-COVID-19-Crawler-master/DXY-COVID-19-Crawler-master/service" />
+    <SUITE FILE_PATH="coverage/covid19_system$spider_weibo_comments_data.coverage" NAME="spider-weibo-comments-data Coverage Results" MODIFIED="1619097513691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/covid19_system$covid19_system.coverage" NAME="covid19-system Coverage Results" MODIFIED="1612779293892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/covid19_system$data_analaysis.coverage" NAME="spider-vaccinations-data Coverage Results" MODIFIED="1618406003316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/covid19_system$spider_vaccinations_data.coverage" NAME="spider-vaccinations-data Coverage Results" MODIFIED="1618839370642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/covid19_system$spider_yiqing_data.coverage" NAME="spider-yiqing-data Coverage Results" MODIFIED="1622468962596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/covid19_system$util.coverage" NAME="util Coverage Results" MODIFIED="1619098254791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/covid19_system$script.coverage" NAME="script Coverage Results" MODIFIED="1614308825499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/DXY-COVID-19-Data-master/DXY-COVID-19-Data-master" />
+    <SUITE FILE_PATH="coverage/covid19_system$test.coverage" NAME="test Coverage Results" MODIFIED="1618313384196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/covid19_system$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1637678877783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/csv/words-data.csv" />
+    <entry file="file://$PROJECT_DIR$/static/csv/yiqing-news-data.csv" />
+    <entry file="file://$PROJECT_DIR$/static/csv/yqwords-data.csv" />
+    <entry file="file://$PROJECT_DIR$/weiboComments.csv" />
+    <entry file="file://$PROJECT_DIR$/static/js/echarts-wordcloud.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/echarts-wordcloud3.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/csv/yq-words-data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/demo.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="17791" column="17" selection-start-line="17791" selection-start-column="17" selection-end-line="17791" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-data.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/controllers/trend_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6156">
+          <caret line="228" selection-start-line="228" selection-end-line="228" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/csv/vaccinations-news-data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/csv/vaccinations-words-data.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/flask/app.py" />
+    <entry file="file://$PROJECT_DIR$/static/csv/weibo-words-data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/controllers/america_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="177" column="15" selection-start-line="177" selection-start-column="15" selection-end-line="177" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/csv/weiboComments.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="601" selection-start-line="601" selection-end-line="601" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/ecStat.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/微博疫情评论分析结果.csv" />
+    <entry file="file://$PROJECT_DIR$/static/js/controllers/sentiment_controller.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/sentiment_charts.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/mapworld.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/csv/weibo-evaluation-results.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/mapamerica.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="75" column="54" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/america_charts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="192" column="34" lean-forward="true" selection-start-line="192" selection-start-column="34" selection-end-line="192" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/americatrend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/controllers/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/worldvaccine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/protrend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/area_charts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/controllers/worldvaccine_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1998">
+          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="132" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/controllers/history_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9828">
+          <caret line="417" column="9" selection-start-line="417" selection-start-column="9" selection-end-line="417" selection-end-column="9" />
+          <folding>
+            <element signature="e#181#2155#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/world_new.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/vaccine_charts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="e#413#3647#0" />
+            <element signature="e#3666#7095#0" />
+            <element signature="e#7114#17004#0" />
+            <element signature="e#17023#20579#0" />
+            <element signature="e#20598#24154#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-weibo-comments-data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8451">
+          <caret line="342" column="22" selection-start-line="342" selection-start-column="22" selection-end-line="342" selection-end-column="22" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+            <element signature="e#11933#12762#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sentiment.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/china.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/mapchina.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+          <folding>
+            <element signature="e#884#4164#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/america.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/worldtrend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/controllers/global_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="88" column="77" selection-start-line="88" selection-start-column="72" selection-end-line="88" selection-end-column="77" />
+          <folding>
+            <element signature="e#52#550#0" />
+            <element signature="e#579#1027#0" />
+            <element signature="e#1471#1973#0" />
+            <element signature="e#2002#2394#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-yiqing-data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20628">
+          <caret line="768" column="80" selection-start-line="768" selection-start-column="80" selection-end-line="768" selection-end-column="80" />
+          <folding>
+            <element signature="e#24#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/world_charts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2727">
+          <caret line="101" column="30" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/global.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3834">
+          <caret line="142" column="12" selection-start-line="139" selection-start-column="32" selection-end-line="142" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3186">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-vaccinations-news-data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="530" column="14" selection-start-line="530" selection-start-column="14" selection-end-line="530" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
