@@ -45,17 +45,17 @@
 
 #### 系统界面
 
-![](F:\DeskTop\本科毕设\covid19-system\static\images\1.png)
+![](static/images/1.png)
 
-![2](F:\DeskTop\本科毕设\covid19-system\static\images\2.png)
+![2](static/images/2.png)
 
-![3](F:\DeskTop\本科毕设\covid19-system\static\images\3.png)
+![3](static/images/3.png)
 
-![4](F:\DeskTop\本科毕设\covid19-system\static\images\4.png)
+![4](static/images/4.png)
 
-![5](F:\DeskTop\本科毕设\covid19-system\static\images\5.png)
+![5](static/images/5.png)
 
-![6](F:\DeskTop\本科毕设\covid19-system\static\images\6.png)
+![6](static/images/6.png)
 
 
 
